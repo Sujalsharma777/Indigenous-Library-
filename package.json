@@ -1,4 +1,6 @@
 {
+  "homepage": "https://github.com/Sujalsharma777/Indigenous-Library-",
+
   "name": "library",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +9,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-page -d  build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",

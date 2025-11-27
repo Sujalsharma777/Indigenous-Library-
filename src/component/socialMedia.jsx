@@ -8,17 +8,17 @@ const socialMedia = () => {
     <>
       <div className="grid grid-rows-2 grid-cols-2 justify-center  items-center   p-10 bg-white rounded-2xl shadow-md ">
         
-          <a href="http://" target="_blank" rel="noopener noreferrer" className="text-7xl hover:scale-105 p-10 text-green-600">
+          <a href="" target="_blank" rel="noopener noreferrer" className="text-7xl hover:scale-105 p-10 text-green-600">
             <FaSquareWhatsapp />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer" className="text-7xl hover:scale-105 p-10 text-red-600">
+          <a href="https://youtube.com/@indigenious_library?si=kokbe8dOpT0mQHRm" target="_blank" rel="noopener noreferrer" className="text-7xl hover:scale-105 p-10 text-red-600">
             <FaYoutube />
           </a>
      
-          <a href="http://" target="_blank" rel="noopener noreferrer" className="text-7xl hover:scale-105 p-10 text-blue-600">
+          <a href="https://www.facebook.com/share/1CyHDvdJGu/" target="_blank" rel="noopener noreferrer" className="text-7xl hover:scale-105 p-10 text-blue-600">
             <FaFacebookSquare />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer" className="text-7xl hover:scale-105 p-10 text-pink-600">
+          <a href="https://www.instagram.com/indigenious_library?igsh=MmE3NmphcGVmMXEz" target="_blank" rel="noopener noreferrer" className="text-7xl hover:scale-105 p-10 text-pink-600">
             <FaInstagramSquare />
           </a>
        

@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
       ],
-      base:"/Indigenous-Library-/"
+      base:"/Indigenious-Library-self-study/"
 })

@@ -4,6 +4,14 @@ import lib from "../assets/lib-logo.png";
 import { motion } from "framer-motion";
 
 const hero = () => {
+    
+  const handlesubmit =  (e)=>{
+e.preventDefault()
+ const phoneNumber = '+919993718898'; // Replace with your WhatsApp number (with country code)
+        const encodedMessage = "I want to join the library seat";
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+        window.open(whatsappUrl, '_blank');
+  }
   return (
     <div className="flex justify-center items-center p-5 sm:p-20 bg-base-200 min-h-screen ">
       <div className="flex items-center flex-col lg:flex-row-reverse ">
@@ -32,7 +40,7 @@ const hero = () => {
             guidance for independent learning and growth.
           </p>
           <div className="flex justify-center sm:justify-start ">
-            <button className="btn btn-primary "  >Book </button>
+            <button className="btn btn-primary "onClick={handlesubmit}  >Book </button>
           </div>
         </motion.div>
       </div>

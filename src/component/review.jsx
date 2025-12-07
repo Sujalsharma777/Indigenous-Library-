@@ -13,16 +13,16 @@ const review = () => {
       spaceBetween={30}
       centeredSlides={true}
       autoplay={{
-        delay: 2500,
+        delay: 4000,
         disableOnInteraction: false,
       }}
       modules={[Autoplay, Pagination, Navigation]}
       className="flex items-center justify-center    bg-white rounded-2xl shadow-md "
     >
       {/* First reviews  */}
-      <SwiperSlide className=" py-5 px-2">
+      <SwiperSlide className=" py-2 px-2">
         <div className="pt-5 font-semibold py-10 px-5 text-2xl text-left">
-          <q>
+          <q className="text-black">
             {" "}
             Supportive space that boosts focus, encourages teamwork, and
             improves learning.
@@ -34,7 +34,7 @@ const review = () => {
               <img src={avatar} />
             </div>
           </div>
-          <h1 className="text-md font-medium underline underline-offset-2">
+          <h1 className="text-md font-medium underline underline-offset-2 text-black">
             Rohit Sharma{" "}
           </h1>
         </div>
@@ -73,9 +73,9 @@ const review = () => {
         </div>
       </SwiperSlide>
       {/* First reviews  */}
-      <SwiperSlide className="swiper-slide bg-white rounded-2xl shadow-md py-5 px-2">
+      <SwiperSlide className="swiper-slide  bg-white rounded-2xl shadow-md py-2 px-2">
         <div className="pt-5 font-semibold py-10 px-5 text-2xl text-left">
-          <q>
+          <q className="text-black">
             {" "}
             Quiet, comfortable room that makes studying easier and more
             enjoyable.
@@ -87,7 +87,7 @@ const review = () => {
               <img src={avatar} />
             </div>
           </div>
-          <h1 className="text-md font-medium underline underline-offset-2">
+          <h1 className="text-md font-medium underline underline-offset-2 text-black">
             Prakash{" "}
           </h1>
         </div>
@@ -126,9 +126,9 @@ const review = () => {
         </div>
       </SwiperSlide>{" "}
       {/* First reviews  */}
-      <SwiperSlide className="swiper-slide bg-white rounded-2xl shadow-md py-5 px-2">
+      <SwiperSlide className="swiper-slide  bg-white rounded-2xl shadow-md py-2 px-2">
         <div className="pt-5 font-semibold py-10 px-5 text-2xl text-left">
-          <q>
+          <q className="text-black">
             {" "}
             Great study environment with calm vibes and helpful peer
             interaction.
@@ -140,7 +140,7 @@ const review = () => {
               <img src={avatar} />
             </div>
           </div>
-          <h1 className="text-md font-medium underline underline-offset-2">
+          <h1 className="text-md font-medium underline underline-offset-2 text-black">
             Nitin Viyas{" "}
           </h1>
         </div>

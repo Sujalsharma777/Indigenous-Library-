@@ -2,9 +2,9 @@ import React from 'react'
 import logo from '../assets/lib-logo.png'
 const footer = () => {
   return (
-    <footer className="flex justify-between items-center flex-col px-20 py-5 bg-base-200">
-  <aside className='flex justify-center items-center gap-5'> 
-  <img src={logo} alt=""  className='sm:max-w-20 max-w-20' />
+    <footer className="flex justify-between items-center flex-col px-20 py-5 bg-base-200 dark:bg-base-100">
+  <aside className='flex justify-center items-center gap-5  '> 
+  <img src={logo} alt=""  className='sm:max-w-20 max-w-20 drop-shadow-white drop-shadow-lg' />
     <p className='sm:text-4xl text-2xl font-bold'>Indiginious Library
       
       
